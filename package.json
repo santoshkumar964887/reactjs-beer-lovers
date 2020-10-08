@@ -2,7 +2,6 @@
   "name": "beer-lovers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://santoshkumar964887.github.io/React-movie-search-application",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -12,6 +11,7 @@
     "moment": "^2.26.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-infinite-scroll-component": "^5.1.0",
     "react-lines-ellipsis": "^0.14.1",
     "react-moment": "^0.9.7",
     "react-router-dom": "^5.2.0",

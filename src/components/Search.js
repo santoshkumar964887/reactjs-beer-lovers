@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { ResultCard } from "./ResultCard";
 import "../lib/font-awesome/css/style.css";
-import SearchIcon from '@material-ui/icons/Search';
+import SearchIcon from "@material-ui/icons/Search";
+import InfiniteScroll from "react-infinite-scroll-component";
 const Search = () => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
@@ -34,7 +35,7 @@ const Search = () => {
         }
       });
   };
-  console.log(results)
+  console.log(results);
   return (
     <div>
       <div className="input-wrapper">
@@ -45,25 +46,38 @@ const Search = () => {
           value={query}
           onChange={onChange}
         />
-    
+
         <div>
-          <button type="button" onClick={handleClick} className="btn btn-success" >
+          <button
+            type="button"
+            onClick={handleClick}
+            className="btn btn-success"
+          >
             <SearchIcon />
-            <span id="btn-success" className="btn4">Search</span>
+            <span id="btn-success" className="btn4">
+              Search
+            </span>
           </button>
         </div>
       </div>
-
-      { results?(results.length > 0 ? (
-        <ul className="results1">
-          {results.map((beer) => (
-            <li key={beer.id}>
-              <ResultCard beer={beer} />
-            </li>
-          ))}
-        </ul>
-      ):<h2 style={{textAlign:'center'}}>Loading...</h2>):<h2 style={{textAlign:'center'}}>Result Not Found</h2>}
+      <InfiniteScroll dataLength={results.length}>
+        {results ? (
+          results.length > 0 ? (
+            <ul className="results1">
+              {results.map((beer) => (
+                <li key={beer.id}>
+                  <ResultCard beer={beer} />
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <h2 style={{ textAlign: "center" }}>Loading...</h2>
+          )
+        ) : (
+          <h2 style={{ textAlign: "center" }}>Result Not Found</h2>
+        )}
+      </InfiniteScroll>
     </div>
   );
 };
-export default Search; 
+export default Search;

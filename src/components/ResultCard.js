@@ -4,6 +4,7 @@ import { GlobalContext } from "../context/GlobalState";
 import "../lib/font-awesome/css/style.css";
 import LinesEllipsis from "react-lines-ellipsis";
 import StarsIcon from "@material-ui/icons/Stars";
+
 export const ResultCard = ({ beer }) => {
   const [colorClass, setColorClass] = useState("");
   const { addItemToFavouriteList, favourite } = useContext(GlobalContext);
@@ -11,6 +12,7 @@ export const ResultCard = ({ beer }) => {
   let storedItemWatched = favourite.find((o) => o.id === beer.id);
 
   const watchedDisabled = storedItemWatched ? true : false;
+  
 
   return (
     <div className="result-card">
