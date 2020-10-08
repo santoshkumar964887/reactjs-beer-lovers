@@ -2,6 +2,7 @@
   "name": "beer-lovers",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://santoshkumar964887.github.io/reactjs-beer-lovers",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",

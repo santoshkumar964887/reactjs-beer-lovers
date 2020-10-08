@@ -16,8 +16,9 @@ function App() {
         <Header />
 
         <Switch>
+        
           <Route exact path="/" component={Search} />
-
+          <Route exact path="/reactjs-beer-lovers" component={Search} />
           <Route path="/favorite" component={Favorites} />
         </Switch>
       </Router>
