@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactjs-beer-lovers/static/css/main.3d33bcba.chunk.css",
-    "main.js": "/reactjs-beer-lovers/static/js/main.e0d812bf.chunk.js",
-    "main.js.map": "/reactjs-beer-lovers/static/js/main.e0d812bf.chunk.js.map",
+    "main.js": "/reactjs-beer-lovers/static/js/main.f5e87a1e.chunk.js",
+    "main.js.map": "/reactjs-beer-lovers/static/js/main.f5e87a1e.chunk.js.map",
     "runtime-main.js": "/reactjs-beer-lovers/static/js/runtime-main.904d865c.js",
     "runtime-main.js.map": "/reactjs-beer-lovers/static/js/runtime-main.904d865c.js.map",
     "static/js/2.f2a77b7b.chunk.js": "/reactjs-beer-lovers/static/js/2.f2a77b7b.chunk.js",
     "static/js/2.f2a77b7b.chunk.js.map": "/reactjs-beer-lovers/static/js/2.f2a77b7b.chunk.js.map",
     "index.html": "/reactjs-beer-lovers/index.html",
-    "precache-manifest.fcad40654aa490e09827001aaf316c20.js": "/reactjs-beer-lovers/precache-manifest.fcad40654aa490e09827001aaf316c20.js",
+    "precache-manifest.56ffe8a15f1061be82906be6e4a6d859.js": "/reactjs-beer-lovers/precache-manifest.56ffe8a15f1061be82906be6e4a6d859.js",
     "service-worker.js": "/reactjs-beer-lovers/service-worker.js",
     "static/css/main.3d33bcba.chunk.css.map": "/reactjs-beer-lovers/static/css/main.3d33bcba.chunk.css.map",
     "static/js/2.f2a77b7b.chunk.js.LICENSE.txt": "/reactjs-beer-lovers/static/js/2.f2a77b7b.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.904d865c.js",
     "static/js/2.f2a77b7b.chunk.js",
     "static/css/main.3d33bcba.chunk.css",
-    "static/js/main.e0d812bf.chunk.js"
+    "static/js/main.f5e87a1e.chunk.js"
   ]
 }
