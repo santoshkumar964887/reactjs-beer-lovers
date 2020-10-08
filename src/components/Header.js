@@ -7,7 +7,7 @@ export const Header = () => {
       <div className="container">
         <div className="inner-content">
           <div className="brand">
-            <Link to="/">Beer Lovers</Link>
+            <Link to="/reactjs-beer-lovers">Beer Lovers</Link>
           </div>
 
           <ul className="nav-links">
@@ -18,7 +18,7 @@ export const Header = () => {
             </li>
 
             <li>
-              <Link to="/" className="btn btn-main">
+              <Link to="/reactjs-beer-lovers" className="btn btn-main">
                 Search
               </Link>
             </li>
