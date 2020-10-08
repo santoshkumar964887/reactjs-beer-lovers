@@ -56,7 +56,7 @@
 }
 .btn1{
     background-color: none;
-    color:blue;
+    color:gray;
     position:absolute;
     right:20px;
     top:10px;
@@ -64,16 +64,16 @@
 
 }
 .btn1:hover{
-    color:#f7d80a;
+    color:#032541;
 }
 .activecolor{
-    color: #f7d80a;
+    color: green;
     font-weight: 900;
     font-size: 20px;
 }
 .btn2{
     background-color: none;
-    color:#f7d80a;
+    color:green;
     position:absolute;
     right:20px;
     top:10px;
@@ -81,7 +81,7 @@
 
 }
 .btn2:hover{
-    color:blue;
+    color:#032541;
 }
 a{
     text-decoration: none;

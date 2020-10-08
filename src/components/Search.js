@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useCallback } from "react";
 import { ResultCard } from "./ResultCard";
 import "../lib/font-awesome/css/style.css";
 import SearchIcon from "@material-ui/icons/Search";
@@ -6,23 +6,24 @@ import InfiniteScroll from "react-infinite-scroll-component";
 const Search = () => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
-    fetch("https://api.punkapi.com/v2/beers?page=1&per_page=80")
+    fetch(`https://api.punkapi.com/v2/beers?page=${page}&per_page=60`)
       .then((res) => res.json())
       .then((data) => {
         if (!data.errors) {
-          setResults(data);
+          setResults((d) => [...d, ...data]);
         } else {
           setResults([]);
         }
       });
-  }, []);
-  const onChange = (e) => {
+  }, [page]);
+  const onChange = useCallback((e) => {
     e.preventDefault();
 
     setQuery(e.target.value);
-  };
+  },[]);
 
   const handleClick = () => {
     fetch(`https://api.punkapi.com/v2/beers?beer_name=${query}`)
@@ -35,7 +36,10 @@ const Search = () => {
         }
       });
   };
-  console.log(results);
+
+  const next = () => {
+    setPage((page) => page + 1);
+  };
   return (
     <div>
       <div className="input-wrapper">
@@ -60,7 +64,7 @@ const Search = () => {
           </button>
         </div>
       </div>
-      <InfiniteScroll dataLength={results.length}>
+      <InfiniteScroll dataLength={results.length} next={next} hasMore={true}>
         {results ? (
           results.length > 0 ? (
             <ul className="results1">
