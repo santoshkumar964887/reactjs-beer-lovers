@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c8c0b3863592b51bbd8f5718f96e70d",
+    "revision": "793dc420d7a09a6fff5a2d7395a4106c",
     "url": "/reactjs-beer-lovers/index.html"
   },
   {
-    "revision": "c58877e49a8ec6cb5299",
-    "url": "/reactjs-beer-lovers/static/css/main.3d33bcba.chunk.css"
+    "revision": "17dda20706c459699c82",
+    "url": "/reactjs-beer-lovers/static/css/main.7abe45ff.chunk.css"
   },
   {
-    "revision": "9b419e8729d04b17c08e",
-    "url": "/reactjs-beer-lovers/static/js/2.f2a77b7b.chunk.js"
+    "revision": "895cfd47d9d8bcd60c26",
+    "url": "/reactjs-beer-lovers/static/js/2.3080fed8.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/reactjs-beer-lovers/static/js/2.f2a77b7b.chunk.js.LICENSE.txt"
+    "url": "/reactjs-beer-lovers/static/js/2.3080fed8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c58877e49a8ec6cb5299",
-    "url": "/reactjs-beer-lovers/static/js/main.f5e87a1e.chunk.js"
+    "revision": "17dda20706c459699c82",
+    "url": "/reactjs-beer-lovers/static/js/main.bff22be1.chunk.js"
   },
   {
     "revision": "79a4e49fcf04c6ff9b1f",
