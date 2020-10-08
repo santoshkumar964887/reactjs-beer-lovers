@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "756c99c8f48620047eb61dc89c935a4c",
+    "revision": "d513640802e3a0a6bbe47e38602e8d79",
     "url": "/reactjs-beer-lovers/index.html"
   },
   {
-    "revision": "3d7582ab5e06c5ecaa91",
+    "revision": "15c58794bb226a68f111",
     "url": "/reactjs-beer-lovers/static/css/main.3d33bcba.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-beer-lovers/static/js/2.f2a77b7b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d7582ab5e06c5ecaa91",
-    "url": "/reactjs-beer-lovers/static/js/main.da54d7e6.chunk.js"
+    "revision": "15c58794bb226a68f111",
+    "url": "/reactjs-beer-lovers/static/js/main.e0d812bf.chunk.js"
   },
   {
     "revision": "79a4e49fcf04c6ff9b1f",
